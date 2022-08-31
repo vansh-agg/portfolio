@@ -1,0 +1,512 @@
+body {
+    margin: 0;
+    background-color: rgb(6, 31, 5);
+    /* background-image: linear-gradient(180deg, black, green); */
+    font-family: 'DynaPuff', cursive;
+}
+
+@media(max-width:1451px) {
+    #same3 {
+        left: 280px;
+        transform: translateY(-200px);
+    }
+
+}
+
+@media(max-width:1270px) {
+    span {
+        transform: translateX(150px);
+    }
+}
+
+@media(max-width:1189px) {
+    span {
+        transform: translate(740px, -80px);
+    }
+}
+
+@media(max-width:1017px) {
+    .email {
+        transform: translate(760px, -60px);
+    }
+
+    span {
+        transform: translate(700px, -80px);
+    }
+}
+
+@media(max-width:876px) {
+    #same1 {
+        transform: translateY(100px);
+    }
+
+    #same2 {
+        transform: translate(-100px, -60px);
+    }
+
+    #same3 {
+        transform: translate(-300px, 90px);
+
+    }
+}
+
+@media(max-width:842px) {
+    #same3 {
+        transform: translate(10px, -120px);
+
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 350px;
+
+    }
+
+    .food {
+        margin: 0;
+
+    }
+
+    .travelling {
+        margin: 0;
+
+    }
+
+    #HOBBIES h1 {
+        transform: translateX(330px);
+    }
+
+    #SKILLS h1 {
+        transform: translateX(330px);
+    }
+
+    #CONTACT h1 {
+        transform: translateX(330px);
+    }
+
+    .name {
+        transform: translateX(-400px);
+    }
+
+    .address {
+        transform: translate(60px, -50px);
+    }
+
+    .phone {
+        transform: translate(-50px, -10px);
+    }
+
+    .email {
+        transform: translate(270px, -100px);
+    }
+
+    span {
+        transform: translate(340px, -560px);
+    }
+}
+
+@media(max-width:523px) {
+    .github {
+        margin-left: 80px;
+    }
+
+}
+
+
+
+nav a {
+    color: #FFD447;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#f {
+    color: rgb(12, 71, 14);
+}
+
+nav a:hover {
+    border: 1px solid black;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.nav1 {
+    margin: 50px;
+    left: 70px;
+    font-size: 20px;
+    position: relative;
+    border: 1px solid white;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.2s;
+
+}
+
+.nav1:hover {
+    border: 1px solid yellow;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0.3em 0.3em 0.5em -0.4em yellow;
+    transform: translateX(0.3em)
+}
+
+.nav2 {
+    font-size: 20px;
+    position: relative;
+    left: 40%;
+}
+
+.nav3 {
+    font-size: 20px;
+    position: relative;
+    left: 43%;
+}
+
+.nav4 {
+    font-size: 20px;
+    position: relative;
+    left: 46%;
+}
+
+.nav5 {
+    font-size: 20px;
+    position: relative;
+    left: 49%;
+}
+
+
+.HOME {
+    padding-top: 150px;
+}
+
+#HOME div {
+    display: inline-block;
+}
+
+nav div {
+    display: inline-block;
+}
+
+#same1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(9, 9, 48);
+    position: relative;
+    left: 250px;
+    bottom: 190px;
+    border: 5px solid rgba(164, 10, 10, 0.819);
+    background-color: rgba(255, 255, 0, 0.841);
+    border-radius: 50% 20%/10% 30%;
+    padding: 30px;
+    box-shadow: 10px 10px 20px rgb(255, 12, 12);
+    transition: 0.2s;
+}
+
+#same1:hover {
+    transform: scale(1.1);
+}
+
+#same2 {
+    position: relative;
+    left: 510px;
+    border: 8px solid rgba(164, 10, 10, 0.819);
+    border-radius: 13px;
+
+    transition: 0.2s;
+}
+
+#same2:hover {
+    transform: scale(1.1);
+}
+
+#same3 {
+    position: relative;
+    font-size: 20px;
+    top: 90px;
+    right: 620px;
+    box-shadow: 10px 10px 20px red;
+    margin-bottom: 150px;
+    color: rgb(12, 71, 14);
+    border: 5px solid rgba(164, 10, 10, 0.819);
+    background-color: rgb(170, 255, 0);
+    font-weight: 700;
+    padding: 28px;
+    border-radius: 50% 20%/10% 30%;
+    transition: 0.2s;
+}
+
+#same3:hover {
+    transform: scale(1.1);
+}
+
+div h2 {
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+#HOBBIES div {
+    border: 5px solid white;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 40% 40%/10% 10%;
+    text-align: center;
+    transition: 0.2s;
+    box-shadow: 5px 5px 10px beige;
+}
+
+
+#HOBBIES div:hover {
+    transform: scale(1.1);
+}
+
+#HOBBIES h1 {
+    margin: 50px;
+    margin-left: 80px;
+    margin-bottom: 70px;
+    font-size: 50px;
+    width: 210px;
+    border: 5px solid rgb(248, 252, 16);
+    color: rgb(248, 252, 16);
+    background-color: rgb(5, 5, 18);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 8px yellow, 10px 10px 8px white, 15px 15px 8px green;
+}
+
+#SKILLS h1 {
+    margin: 50px;
+    margin-left: 80px;
+    margin-bottom: 70px;
+    font-size: 50px;
+    width: 175px;
+    border: 5px solid rgb(248, 252, 16);
+    color: rgb(248, 252, 16);
+    background-color: rgb(5, 5, 18);
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.2s;
+    text-align: center;
+    box-shadow: 5px 5px 8px yellow, 10px 10px 8px white, 15px 15px 8px green;
+}
+
+#CONTACT h1 {
+    margin: 50px;
+    margin-left: 80px;
+    margin-bottom: 70px;
+    font-size: 50px;
+    width: 225px;
+    border: 5px solid rgb(248, 252, 16);
+    color: rgb(248, 252, 16);
+    background-color: rgb(5, 5, 18);
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.2s;
+    text-align: center;
+    box-shadow: 5px 5px 8px yellow, 10px 10px 8px white, 15px 15px 8px green;
+}
+
+
+.food {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.travelling {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.ht {
+    width: 120px;
+}
+
+.cs {
+    width: 120px;
+}
+
+.jv {
+    width: 200px;
+}
+
+.rt {
+    width: 180px;
+}
+
+.ds {
+    width: 120px;
+}
+
+.db {
+    width: 135px;
+}
+
+.img2 {
+    margin-right: 15px;
+}
+
+/* Container for skill bars */
+.container {
+    margin-left: 240px;
+    width: 70%;
+    background-color: #ddd;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.iskills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.SKILLS p {
+    margin-left: 240px;
+    border: 5px solid rgb(87, 255, 68);
+    background-color: #f0f321;
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px #2df81e, 6px 6px 9px yellow;
+}
+
+.html {
+    width: 90%;
+    background-color: #04AA6D;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 5px;
+    box-shadow: 0px 6px 12px #04AA6D;
+}
+
+
+.css {
+    width: 80%;
+    background-color: #2196F3;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 5px;
+    box-shadow: 0px 6px 12px #2196F3;
+}
+
+
+.js {
+    width: 15%;
+    background-color: rgb(25, 0, 255);
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 5px;
+    box-shadow: 0px 6px 12px rgb(25, 0, 255);
+}
+
+
+.react {
+    width: 10%;
+    background-color: #808080;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 5px;
+    box-shadow: 0px 6px 12px #808080;
+}
+
+.DSA {
+    width: 70%;
+    background-color: #f44336;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 5px;
+    box-shadow: 0px 6px 12px #f44336;
+}
+
+.DBMS {
+    width: 20%;
+    background-color: rgb(204, 195, 26);
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 5px;
+    box-shadow: 0px 6px 12px rgb(204, 195, 26);
+}
+
+
+.CONTACT div {
+    display: inline-block;
+    border: 4px solid orange;
+    background-color: #ff58d5;
+    padding: 20px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 14px pink;
+}
+
+.name {
+    position: relative;
+    font-size: 30px;
+    top: 20px;
+    left: 550px;
+}
+
+.address {
+    position: relative;
+    top: 150px;
+    right: 150px;
+}
+
+.phone {
+    position: relative;
+    top: 150px;
+    left: 230px;
+}
+
+.email {
+    position: relative;
+    top: 280px;
+    right: 350px;
+}
+
+.linkedin {
+    position: relative;
+    top: 200px;
+    right: 650px;
+}
+
+.github {
+    position: relative;
+    left: 50px;
+
+}
+
+.CONTACT a {
+    text-decoration: none;
+    color: red;
+    border: 1px solid black;
+    background-color: rgb(250, 179, 179);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px pink;
+    transition: 0.2s;
+}
+
+.CONTACT a:hover {
+    background-color: #2196F3;
+    color: white;
+    box-shadow: 5px 5px 10px blue;
+}
